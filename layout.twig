@@ -7,12 +7,22 @@
 	<body class="{{ page.backgroundClass }}">
 
 		<div class="page-content">
+
 			<div class="block-content">
+
 			{% include "includes/header.twig" %}
-				{% block content %}
-				{% endblock %}
+
+				<div class="site-container">
+
+					{% block content %}
+					{% endblock %}
+
+				</div>
+
+				{% include "includes/footer.twig" %}
+				
 			</div>
-			{% include "includes/footer.twig" %}
+
 		</div>
 
 	    {% include basekit.bodyScript %}

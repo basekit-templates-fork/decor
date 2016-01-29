@@ -1,20 +1,60 @@
 
+// Site
+@value__container--width: 1300px;
+
 .container {
     padding: 0 4%;
     max-width: 1300px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .feature__content-wrap {
     background-color: @color__feature-content--background;
     padding: 200px 10% 200px 45%;
     @media @tablet {
-        padding: 200px 10% 200px 10%;
+        padding: 150px 10%;
+    }
+    @media @mobile {
+        padding: 100px 10%;
+    }
+}
+
+.feature__content-inner-wrap {
+    @media @tablet {
+        text-align: center;
+    }
+}
+
+.feature__button {
+    &:after {
+        padding-right: 0;
+        @media @mobile {
+            padding-left: 0;
+        }
+    }
+    &:before {
+        @media @mobile {
+            width: 4em;
+        }
+    }
+    @media @tablet {
+        float: initial;
     }
 }
 
 .feature__headline,
 .feature__strapline {
     max-width: 100%;
+}
+
+.drop-down-nav .page-title {
+    background-color: @color__body--background;
+}
+
+.custom-navigation-toggle, .custom-navigation-toggle:hover {
+    background-color: darken(@color__body--background,5%);
+}
+
+.navigation-list--children .navigation-item:hover {
+    background-color: darken(@color__header--background,10%);
 }

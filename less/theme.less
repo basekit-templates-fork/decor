@@ -68,6 +68,10 @@
         -ms-flex-align: stretch;
         align-items: stretch;
         min-height: 100vh;
+        @media @mobile {
+            display: block;
+            min-height: inherit;
+        }
     }
 
     .block-content {
@@ -253,7 +257,6 @@
 	padding: 4%;
 	max-width: 1300px;
 	margin: 0 auto;
-    overflow: hidden;
 }
 
 

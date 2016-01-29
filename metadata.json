@@ -1,5 +1,5 @@
 {
-    "name":"protocol",
+    "name":"decor",
     "widgetVersion": 2,
     "screenshot":"protocol-screenshot.jpg",
     "thumbnail":"protocol.png",
@@ -60,9 +60,9 @@
         }
     },
     "fontSwatch": {
-       "title": "Raleway",
+       "title": "Lato",
         "font1": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "32px",
             "font-weight": "400",
             "line-height": "44px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "26px",
             "font-weight": "400",
             "line-height": "39px",
@@ -78,7 +78,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "22px",
             "font-weight": "400",
             "line-height": "40px",
@@ -86,7 +86,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "18px",
             "font-weight": "400",
             "line-height": "32px",
@@ -94,17 +94,17 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
-            "font-size": "18px",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
             "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "16px",
-            "font-weight": "700",
+            "font-weight": "400",
             "line-height": "20px",
             "color": "@color-swatch6",
             "color-hover": "@color-swatch6",
@@ -113,8 +113,8 @@
             "background-color-hover": "darken(@color-swatch3,8%)"
         },
         "font7": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
             "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch1",
@@ -123,27 +123,27 @@
             "background-color-hover": "darken(@color-swatch3,5%)"
         },
         "font8": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "72px",
-            "font-weight": "700",
+            "font-weight": "300",
             "line-height": "80px",
-            "color": "@color-swatch6",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "15px",
             "font-weight": "300",
-            "line-height": "36px",
-            "color": "@color-swatch6",
+            "line-height": "26px",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Merriweather\", Georgia, serif",
             "font-size": "26px",
-            "font-weight": "400",
+            "font-weight": "700",
             "line-height": "34px",
-            "color": "@color-swatch6",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         }
     },

@@ -1,5 +1,5 @@
 // --------------------------------
-// Container
+// Container/Extras
 // --------------------------------
 
 // Site
@@ -15,6 +15,12 @@
     padding: 2% 8%;
     max-width: 1300px;
     margin: 0 auto;
+}
+
+.widget__clicktocall .phone-number-link {
+    @media @mobile {
+        padding: 0 2em 1em 1em;
+    }
 }
 
 
@@ -72,7 +78,7 @@
 
 
 // --------------------------------
-// Navigation
+// Button
 // --------------------------------
 
 .button, .post-excerpt .read-more {
@@ -192,6 +198,15 @@ textarea {
     color: @font-swatch5-color;
 }
 
+.widget--zone-widget .widget__blogsearch .form-group:last-child .button {
+    @media @mobile {
+        text-align: center;
+        font-size: inherit;
+        line-height: inherit;
+        height: 41px;
+        color: @font-swatch5-color;
+    }
+}
 
 
 

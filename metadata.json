@@ -155,7 +155,7 @@
         "site": {
             "color__body--background": "@color-swatch1",
             "color__link--text": "@color-swatch3",
-            "color__companyname--text": "@color-swatch6",
+            "color__companyname--text": "@color-swatch4",
             "font__companyname--font-family" : "@font-swatch10-font-family",
             "font__companyname--font-size" : "@font-swatch10-font-size",
             "font__companyname--font-weight" : "@font-swatch10-font-weight",
@@ -212,8 +212,8 @@
             "color__footer--background": "#313131"
         },
         "navigation": {
-            "color__navigation--text": "@font-swatch6-color",
-            "color__navigation--text--selected": "@font-swatch6-color",
+            "color__navigation--text": "@color-swatch4",
+            "color__navigation--text--selected": "@color-swatch4",
             "font__navigation--font-family" : "@font-swatch6-font-family",
             "font__navigation--font-size" : "@font-swatch6-font-size",
             "font__navigation--font-weight" : "@font-swatch6-font-weight",
@@ -222,8 +222,8 @@
         },
         "feature": {
             "color__feature-content--background" : "transparent",
-            "color__feature-headline--text" : "@color-swatch6",
-            "color__feature-strapline--text" : "@color-swatch6",
+            "color__feature-headline--text" : "@color-swatch4",
+            "color__feature-strapline--text" : "@color-swatch4",
             "color__feature-button--background" : "@color-swatch3",
             "color__feature-button--background--hover" : "@color__button--background--hover",
             "color__feature-button--text" : "@font-swatch7-color",

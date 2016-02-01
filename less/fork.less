@@ -55,14 +55,6 @@
     }
 }
 
-.button, .post-excerpt .read-more {
-    border: 3px solid @color__button--border;
-    border-radius: 0;
-    &:hover {
-        color: @color__button--text--hover;
-    }
-}
-
 .feature__headline,
 .feature__strapline {
     max-width: 100%;
@@ -73,6 +65,26 @@
     @media @bp-global-small {
         float: inherit;
         display: block;
+    }
+}
+
+
+
+
+// --------------------------------
+// Navigation
+// --------------------------------
+
+.button, .post-excerpt .read-more {
+    border: 3px solid @color__button--border;
+    border-radius: 0;
+    padding: 0.3em 2em;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+        color: @color__button--text--hover;
     }
 }
 
@@ -133,11 +145,13 @@ input[type="password"],
 textarea {
     font-size: inherit;
     line-height: inherit;
-    height: 33px;
+    height: 41px;
     &:focus {
         border-color: #888888;
     }
  }
+
+
 
 
 // --------------------------------
@@ -177,6 +191,8 @@ textarea {
     border: 0;
     color: @font-swatch5-color;
 }
+
+
 
 
 // --------------------------------

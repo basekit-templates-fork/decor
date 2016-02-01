@@ -56,7 +56,20 @@
 }
 
 .drop-down-nav .page-title {
-    background-color: @color__body--background;
+    @media @tablet {
+        display: none;
+    }
+}
+
+.custom-navigation-toggle {
+    @media @tablet {
+        display: block;
+        position: relative;
+        margin-left: auto;
+    }
+    @media @bp-global-small {
+        margin-right: auto;
+    }
 }
 
 .custom-navigation-toggle, .custom-navigation-toggle:hover {

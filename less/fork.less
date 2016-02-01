@@ -41,19 +41,26 @@
 }
 
 .feature__button {
-    &:after {
-        padding-right: 0;
-        @media @mobile {
-            padding-left: 0;
-        }
+    padding: 1em 2em;
+    border: 3px solid @color__feature-button--border;
+    border-radius: 10px;
+    &:hover {
+        color: @color__button--text--hover;
     }
-    &:before {
-        @media @mobile {
-            width: 4em;
-        }
+    &:after, &:before {
+        display: none;
     }
     @media @tablet {
         float: inherit;
+    }
+}
+
+.button, .post-excerpt .read-more {
+    padding: 1em 2em;
+    border: 3px solid @color__button--border;
+    border-radius: 10px;
+    &:hover {
+        color: @color__button--text--hover;
     }
 }
 

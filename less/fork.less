@@ -10,7 +10,7 @@
 
 .feature__content-wrap {
     background-color: @color__feature-content--background;
-    padding: 200px 10% 200px 45%;
+    padding: 200px 10% 200px 51%;
     @media @tablet {
         padding: 150px 10%;
     }
@@ -45,6 +45,10 @@
 .feature__headline,
 .feature__strapline {
     max-width: 100%;
+    @media @tablet {
+        float: initial;
+        display: block;
+    }
     @media @bp-global-small {
         float: initial;
         display: block;

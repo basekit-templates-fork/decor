@@ -57,7 +57,7 @@
 
 .button, .post-excerpt .read-more {
     border: 3px solid @color__button--border;
-    border-radius: 10px;
+    border-radius: 0;
     &:hover {
         color: @color__button--text--hover;
     }
@@ -122,3 +122,68 @@
         }
     }
 }
+
+
+
+input[type="search"],
+input[type="email"],
+input[type="password"],
+.input--single-line,
+.input--search,
+textarea {
+    font-size: inherit;
+    line-height: inherit;
+    height: 33px;
+    &:focus {
+        border-color: #888888;
+    }
+ }
+
+
+// --------------------------------
+// Slideshow
+// --------------------------------
+
+.slide-navigation .button {
+    border: 0;
+    border-radius: 0;
+}
+
+
+
+
+// --------------------------------
+// Social Icons
+// --------------------------------
+
+.social-link {
+    &:hover:before {
+        background-color: darken(@color-swatch3, 10%);
+    }
+}
+
+
+
+
+// --------------------------------
+// Blog
+// --------------------------------
+
+.blogpost__sharing-links .button {
+    border: 0;
+}
+
+.pagination-list:not(.responsiveslideshow__pagination-list) .button--pagination {
+    border: 0;
+    color: @font-swatch5-color;
+}
+
+
+// --------------------------------
+// Ecom
+// --------------------------------
+
+.quantity-wrap .button--quantity {
+    line-height: 0;
+}
+

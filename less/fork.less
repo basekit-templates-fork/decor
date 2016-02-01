@@ -108,3 +108,18 @@
 .navigation-list--children .navigation-item:hover {
     background-color: darken(@color__header--background,10%);
 }
+
+@media @bp-global-large {
+
+    // Not Selected Navigation Item
+
+    .navigation-body > .navigation-list > .navigation-item:not(.selected) {
+        .animation; // Enabling HW acceleration
+
+        // Text underline animating from left to right on hover
+
+        &:after {
+            background-color: @color-swatch3;
+        }
+    }
+}

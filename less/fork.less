@@ -23,9 +23,20 @@
     }
 }
 
+.widget__clicktocall .phone-number-link {
+    @media @mobile {
+        height: 40px;
+        &:before {
+            top: 3px;
+        }
+    }
+}
+
 .zone-content {
     padding: 2% 0%;
 }
+
+
 
 
 // --------------------------------
@@ -145,8 +156,6 @@
     }
 }
 
-
-
 input[type="search"],
 input[type="email"],
 input[type="password"],
@@ -183,6 +192,19 @@ textarea {
 .social-link {
     &:hover:before {
         background-color: darken(@color-swatch3, 10%);
+    }
+}
+
+
+
+
+// --------------------------------
+// Twitter
+// --------------------------------
+
+.tweet-content {
+    @media @mobile {
+        max-width: 68.5%;
     }
 }
 

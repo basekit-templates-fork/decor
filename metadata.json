@@ -1,8 +1,8 @@
 {
     "name":"decor",
     "widgetVersion": 2,
-    "screenshot":"protocol-screenshot.jpg",
-    "thumbnail":"protocol.png",
+    "screenshot":"decor-screenshot.jpg",
+    "thumbnail":"decor.png",
     "templateType":"standard",
     "pageTypes": ["home"],
      "images":[

@@ -249,3 +249,20 @@ textarea {
     background-color: @color__form--background;
     padding: 20px;
 }
+
+.advancedcontactform__legend {
+    font-family: @font__h2--font-family;
+    font-size: @font__h2--font-size;
+    line-height: @font__h2--line-height;
+    color: @color__form-legend--text;
+
+    @media @tablet {
+        font-size: bkscale(@font__h2--font-size, 0.92);
+        line-height: bkscale(@font__h2--line-height, 0.92);
+    }
+    @media @mobile {
+        padding: 10px;
+        font-size: bkscale(@font__h2--font-size, 0.8);
+        line-height: bkscale(@font__h2--line-height, 0.8);
+    }
+}

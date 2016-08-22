@@ -42,8 +42,6 @@
 
 .tweet-item {
 	position: relative;
-    background-color: lighten(@color__secondary, 50%);
-    padding: 20px;
 }
 
 
@@ -55,8 +53,7 @@
 .twitter__avatar {
 	position: absolute;
 	bottom: 0;
-	left: 20px;
-    margin-bottom: 20px;
+	left: 10px;
     @media @mobile {
         position: relative;
         left: 0;
@@ -185,7 +182,7 @@
 
 	&:after, &:before {
 		top: 100%;
-		left: 20px;
+		left: 30px;
         height: 0;
         width: 0;
         position: absolute;
@@ -290,15 +287,13 @@
     order: 2;
 	position: absolute;
 	min-height: 40px;
-	right: 20px;
+	right: 10px;
 	bottom: 0;
 	border-left: 1px solid contrast(@color__secondary, @widget-contrast-light, @widget-contrast-dark);
 	padding-left: 1em;
 	font-size: 12px;
 	line-height: 1;
 	color: fade(@color__p--text, 50%);
-    margin-bottom: 20px;
-
 	@media @twitter-medium {
 		min-height: 30px;
 		line-height: 30px;
